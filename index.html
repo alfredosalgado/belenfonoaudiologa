@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BelenNunez</title>
+
+    <!-- Meta Open Graph para WhatsApp y redes sociales -->
+  <meta property="og:title" content="BelenNunez" />
+  <meta property="og:description" content="Especialista en lenguaje infantil. Ayudo a tus hijos a mejorar su comunicación con terapias personalizadas y mucho cariño. ¡Contáctame!" />
+  <meta property="og:image" content="https://www.BelenNunez.cl/assets/img/favicon_io/android-chrome-192x192.png" /> <!-- Imagen que se verá al compartir -->
+  <meta property="og:url" content="https://www.BelenNunez.cl/" /> <!-- URL de la web -->
+  <meta property="og:type" content="website" />
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon_io/favicon.ico" type="image/x-icon">
+  </head>
+  <body class="bg-blancopalido">
+    <header class="bg-blancopalido text-dark container-flex">
+      <div class="container d-flex flex-wrap py-2 justify-content-around aparicion text-barlowc">
+        <a href="tel:+56951684626">
+          <p class="mb-0 text-barlowc text-dark"><i class="fa-solid fa-phone"></i>  +569 5168 4626</p>
+        </a>
+       <a href="mailto:info@belennunez.cl">
+        <p class="mb-0 text-dark"><i class="fa-solid fa-envelope"></i> info@belennunez.cl</p>
+       </a>
+      </div>
+      <nav class="bg-blancopalido pb-4">
+        <div class="container d-flex justify-content-around align-items-center">
+          <a class="navbar-brand py-2 logoanimacion aparicion" href="./index.html">
+            <img src="./assets/img/logo.png" alt="Bootstrap" height="180">
+          </a>
+        </div>
+      </nav>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-ryf sha">
+      <div class="container-fluid">
+        <!-- Botón hamburguesa alineado a la derecha -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenedor de los enlaces, alineado a la derecha -->
+        <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100 d-flex justify-content-around text-barlow">
+            <a class="nav-link text-light text-urbanist" aria-current="page" href="#mi">Sobre Mi</a>
+            
+            
+    
+            <!-- Dropdown para Ramos de Flores -->
+            <a class="nav-link text-light text-urbanist" href="#serv">Servicios</a>
+
+
+            <a class="nav-link text-light text-urbanist" href="#contact">Contactenos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000" data-bs-pause="false">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="image-container">
+                  <img src="./assets/img/portada/1.jpg" class="d-block w-100 img1" alt="1">
+                  <div class="carousel-caption-container">
+                      <div class="carousel-caption">
+                          <p class="bg-darkk rounded px-5 text-marck">Belen Nuñez Fonoaudiologa.</p>
+                          <!-- <div class="carousel-buttons">
+                              <a href="#serv" class="btn btn-primary">Servicios</a>
+                              <a href="#planes" class="btn btn-secondary">Planes</a>
+                          </div> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="image-container">
+                  <img src="./assets/img/portada/2.jpg" class="d-block w-100 img1" alt="2">
+                  <div class="carousel-caption-container">
+                      <div class="carousel-caption">
+                          <p class="bg-darkk rounded px-5 text-urbanist">Dedicación, amor y profesionalismo para el desarrollo de tus hijos.</p>
+                          <!-- <div class="carousel-buttons">
+                              <a href="#serv" class="btn btn-primary">Servicios</a>
+                              <a href="#planes" class="btn btn-secondary">Planes</a>
+                          </div> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="image-container">
+                  <img src="./assets/img/portada/3.jpg" class="d-block w-100 img1" alt="3">
+                  <div class="carousel-caption-container">
+                      <div class="carousel-caption">
+                          <p class="bg-darkk rounded px-5 text-urbanist">Especialista en habla infantil, con el corazón puesto en cada pequeño.</p>
+                          <!-- <div class="carousel-buttons">
+                              <a href="#serv" class="btn btn-primary">Servicios</a>
+                              <a href="#planes" class="btn btn-secondary">Planes</a>
+                          </div> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+    
+       <!-- Botón para abrir el pop-up -->
+  <!-- <button id="openPopup" class="btn d-none">Ver Información</button> -->
+
+  <!-- Pop-up Modal -->
+  <!-- <div id="popupModal" class="popup-container">
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <div class="d-flex flex-column align-items-center">
+        <h4>Aprende a importar desde China y EE.UU.</h4>
+      <h5>Servicios a emprendedores:</h5>
+      <ul class="d-flex flex-column text-justify">
+        <li>Búsqueda de Productos</li>
+        <li>Búsqueda de Proveedores</li>
+        <li>Inspección Pre Embarque</li>
+      </ul> -->
+      <!-- <h5>Consulta sin costo:</h5>
+      <p class="d-flex flex-column"><strong>Teléfono:</strong> +56 9 3521 5898</p>
+      <p class="d-flex flex-column"><strong>Email:</strong> guillermo.conoman@netlogistics.cl</p> -->
+     <!--  </div>
+      <div class="d-flex justify-content-center pt- pb-">
+           
+        <a href="https://wa.me/56935215898?text=Hola,%20me%20gustaría%20consultar%20sobre%20servicio%20de%20importaciones." 
+        class="btn-agenda" target="_blank">
+       Consulta sin costo
+      </a>
+            </div> -->
+      
+      
+
+      <!-- Video -->
+      <!-- <div class="video-container">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/2gmOUXC-dpw?si=7onzEU42nl7XsKlk" 
+                frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <button id="closePopup" class="btn">Cerrar</button>
+    </div>
+  </div> -->
+
+  <section id="mi" class="pt-4 container px-5 pb-5">
+    <h2 class="text-center display-3 pt-5 pb-5 mb-0 text-urbanist titulo-animado text-dark container">
+      Especialista en Lenguaje y Habla Infantil
+    </h2>
+    <div class="row d-flex justify-content-center align-items-center pb-5 g-5">
+      <div class="navbar-brand logoanimacion aparicion d-flex justify-content-center col-12 col-md-7">
+        <img src="./assets/img/hola.JPG" class="circular-image " rounded-circle" alt="Bootstrap" >
+      </div>
+      <p class="text-presentacion text-barlowc texto-fade pt-2 pb-2 text-justify text-dark mb-0 col-12 col-md-5">¡Hola! Soy Belén Núñez, Fonoaudióloga con años de experiencia en el área infantil. Además de Profesora en trastornos del aprendizaje. Te invito a conocer mi trabajo enfocado en evaluar y tratar problemas del lenguaje y habla en pacientes que se incorporan a mi consulta. Mi objetivo es ayudarlos a optimizar su comunicación y así mejorar su calidad de vida.
+      </p>
+    </div>
+  </section>
+
+
+  
+  <div id="serv" class="div-con-imagen2 py-4 container-flex">
+    <div class="container">
+      
+      <h2 class="text-center display-2 pt-4 pb-5 mb-0 text-barlow titulo-animado text-light">
+        <strong>Servicios</strong>
+      </h2>
+      <main class="container pt-4 pb-5">
+        <div class="row justify-content-center align-items-center g-5 pb-4" id="product-container">
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+              
+                <p class="tituloh ps-3 text-izquierda text-barlow display-6 texto-fade pt-2 mb-0 container text-dark">Trastornos del <strong>lenguaje</strong>
+                </p>
+
+              </div>
+              
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Evaluación y tratamiento de dificultades en la comprensión y expresión del lenguaje, ayudando a los niños a comunicarse de manera efectiva según su edad.
+              </p>
+              <a href="./item1.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark">Trastornos del <strong>habla</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Intervención en problemas de articulación y fluidez del habla, como dificultades para pronunciar sonidos o palabras de forma clara.
+              </p>
+              <a href="./item2.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark">Retraso <strong>Comunicativo</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Apoyo especializado para niños que presentan un desarrollo más lento en sus habilidades comunicativas, fomentando su progreso.
+              </p>
+              <a href="./item3.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark">Condición del <strong>Espectro Autista</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Terapias personalizadas para niños en el espectro autista, enfocadas en mejorar sus habilidades de comunicación y socialización.
+              </p>
+              <a href="./item4.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark">Tratamiento de <strong>Tartamudez</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Tratamiento para mejorar la fluidez del habla en niños que presentan interrupciones o repeticiones al hablar, promoviendo confianza.
+              </p>
+              <a href="./item4.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark"><strong>Dislalia</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Corrección de dificultades en la pronunciación de sonidos específicos, trabajando en la articulación para un habla más clara.
+              </p>
+              <a href="./item4.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark"><strong>Disartria</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Rehabilitación para niños con dificultades en el control muscular del habla, mejorando la claridad y fuerza al hablar.
+              </p>
+              <a href="./item4.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark">Apoyo en el <strong>Proceso Lector</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Acompañamiento en el desarrollo de habilidades de lectura y comprensión, ideal para niños con dificultades en el aprendizaje.
+              </p>
+              <a href="./item4.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-izquierda container text-dark">Lavado de <strong>Oídos Adultos</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-justify container text-dark">Servicio de higiene auditiva para adultos, asegurando una correcta limpieza de oídos de forma segura y profesional.
+              </p>
+              <a href="./item4.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center texto-fade">
+            <div class="card card2">
+              <div class="d-flex justify-content-center align-items-center container px-4">
+                <i class="fa-regular fa-circle-check fa-3x pt-3 text-success"></i>
+                <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-justify container text-dark"><strong>ADOS-2 - ADI-R</strong>
+                </p>
+
+              </div>
+              <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-izquierda container text-dark">Evaluaciones especializadas (ADOS-2 y ADI-R) para el diagnóstico del trastorno del espectro autista, ofreciendo un análisis detallado y profesional.
+              </p>
+              <a href="./item4.html" 
+              class="btn-serv texto-fade mb-3" target="_blank">
+             Más información
+            </a>
+            </div>
+          </div>
+
+          
+        </div>
+      </main>
+    </div>
+  </div>
+
+
+
+    <div id="planes" class="bg-blancopalido py-4 container-flex pt-5 pb-5">
+      <div class="container">
+        <h2 class="text-center display-3 text-barlow titulo-animado mb-5 d-flex gap-4 justify-content-center flex-wrap">
+          <strong>Proceso </strong><div class="text-ryf2">Completo</div>
+        </h2>
+        
+        <main class="container">
+          <div class="row justify-content-evenly align-items-center gap-5 pb-4">
+  
+            <div class="col-10 col-md-5 d-flex flex-column justify-content-evenly align-items-center gap-5 texto-fade">
+              <div class="card anchocard">
+                <div class="d-flex flex-column justify-content-center align-items-center container px-4 gap-2 pt-4">
+                  <i class="fa-solid fa-1 fa-2x pt-3 text-primary"></i>
+                  <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-center container text-dark"><strong>EVALUACIÓN</strong>
+                  </p>
+                </div>
+                <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-center container text-dark">Lenguaje <br>Órganos fonoarticulatorios
+                </p>
+               
+              </div>
+              <div class="card">
+                <div class="d-flex flex-column justify-content-center align-items-center container px-4 gap-2 pt-4">
+                  <i class="fa-solid fa-2 fa-2x pt-3 text-primary"></i>
+                  <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-center container text-dark"><strong>INFORME DE RESULTADOS</strong>
+                  </p>
+                </div>
+                <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-center container text-dark">Lenguaje <br>Órganos fonoarticulatorios
+                </p>
+               
+              </div>
+
+              <div class="card">
+                <div class="d-flex flex-column justify-content-center align-items-center container px-4 gap-2 pt-4">
+                  <i class="fa-solid fa-3 fa-2x pt-3 text-primary"></i>
+                  <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-center container text-dark"><strong>PLAN INTERVENCIÓN</strong>
+                  </p>
+                </div>
+                <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-center container text-dark">Programa personalizado para su hijo/a
+                </p>
+               
+              </div>
+
+              <div class="card anchocard">
+                <div class="d-flex flex-column justify-content-center align-items-center container px-4 gap-2 pt-4">
+                  <i class="fa-solid fa-4 fa-2x pt-3 text-primary"></i>
+                  <p class="tituloh ps-3 text-barlow display-6 texto-fade pt-2 mb-0 text-center container text-dark"><strong>TRATAMIENTO</strong>
+                  </p>
+                </div>
+                <p class="texth px-4 text-barlow text-servdescrip texto-fade pt-3 text-center container text-dark">Trabajo de áreas descendidas
+                </p>
+               
+              </div>
+            </div>
+
+            <div class="col-10 col-md-6 d-flex justify-content-center flex-column align-items-center texto-fade">
+              
+                <p class="text-justify display-6 mb-0 text-barlowc text-dark texto-fade bg-proceso">Comenzamos con una <strong>evaluación integral</strong> donde evaluamos el lenguaje en su dimensión <strong>expresiva</strong> (pronunciación) y <strong>comprensiva</strong> (entender el lenguaje) según lo esperado para su edad cronológica. <br><br> Además, realizamos una evaluación de los <strong>órganos fonoarticulatorios</strong> que intervienen en la comunicación (paladar, frenillo, lengua, oídos, etc.)<br><br> Luego, diseñamos un <strong>plan de intervención personalizado</strong> para su hijo/a según los resultados de la evaluación antes mencionada.<br><br> Finalmente iniciamos el <strong>plan de tratamiento</strong> enfocado en potenciar las fortalezas y mejorar las áreas descendidas.</p>
+            </div>
+  
+            
+
+            
+          </div>
+        </main>
+      </div>
+    </div>
+
+   
+         <!--  <div class="d-flex justify-content-center pt-5 pb-4">
+           
+      <a href="https://wa.me/56920700893?text=Hola,%20me%20gustaría%20agendar%20una%20visita." 
+      class="btn-agenda" target="_blank">
+     📅 Agenda con nosotros
+    </a>
+          </div> -->
+        </main>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    
+     
+    
+    <div class="d-flex justify-content-center bg-blancopalido">
+      <div class="div-con-imagen pb-4 pt-0 container-flex">
+        <div class="container">
+          
+          <h2 class="text-center display-6 pt-5 pb-5 mb-0 text-barlow titulo-animado text-light px-4">
+            Comencemos Juntos el Camino hacia una Mejor Comunicación
+          </h2>
+          <p class="px-4 text-barlowc texto-fade display-6 pb-2 text-justify container text-light">Descubre cómo un tratamiento personalizado puede ayudar a tu hijo a desarrollar sus habilidades de lenguaje y habla, con el cariño y profesionalismo que nos caracteriza. ¡Demos el primer paso hoy!
+          </p>
+          <a href="https://wa.me/56995548383?text=Hola,%20me%20gustaría%20agendar%20una%20hora." 
+          class="btn-agenda texto-fade mb-5 mt-5" target="_blank">
+         📅 Agenda con nosotros
+        </a>
+        </div>
+      </div>
+    </div>
+
+
+   
+    
+
+   <!--  <div class="counter-container pt-5 pb-5 bg-seguro">
+      <div class="bg-whiteopacity rounded p-4 mt-5">
+        <div class="counter-box">
+          <p class="text-barlowc text-count">Empresas asesoradas</p>
+          <p class="counter" data-target="46">0</p>
+        </div>
+      </div>
+      <div class="bg-whiteopacity rounded p-4">
+        <div class="counter-box">
+          <p class="text-barlowc text-count">Declaraciones procesadas</p>
+          <p class="counter money" data-target="800">+ 0</p>
+        </div>
+      </div>
+      <div class="bg-whiteopacity rounded p-4 mb-5">
+        <div class="counter-box">
+          <p class="text-barlowc text-count">Años de Experiencia</p>
+          <p class="counter" data-target="10">0</p>
+        </div>
+      </div>
+    </div> -->
+    
+    <div id="contact" class="bg-ryf py-4 d-flex flex-column justify-content-center align-items-center widthcien pt-5">
+      <a class="navbar-brand py-2 logoanimacion aparicion d-flex justify-content-center" href="./index.html">
+        <img src="./assets/img/logo2.jpg" class="rounded" alt="Bootstrap" width="180" height="199">
+      </a>
+      <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado text-light">
+        CONTACTENOS
+      </h2>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Teléfono:</p>
+      <a class="px-5 text-barlowc texto-fade description text-center text-dark bg-light w-75 rounded d-flex align-items-center justify-content-center" href="tel:+56951684626"><p class="mb-0">+56 9 5168 4626</p></a>
+
+      
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Correo:</p>
+
+      <a class="px-5 text-barlowc texto-fade description text-center text-dark bg-light w-75 rounded d-flex align-items-center justify-content-center" href="mailto:info@belennunez.cl"><p class="mb-0">info@belennunez.cl</p></a>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Contacto:</p>
+      <p class="px-5 text-barlowc texto-fade description text-center text-light bg-secondary w-75 rounded d-flex align-items-center justify-content-center">Belen Nuñez Gallardo - Especialista en Leguaje y Habla Infantil</p>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Redes:</p>
+      <div class="col-12 col-md-3 d-flex justify-content-center gap-5 pb-2">
+        <!-- <a href="https://www.linkedin.com/in/contar-group/" target="_blank"><i class="fa-brands fa-linkedin fa-3x" style="color: #0a66c2;"></i></a>
+        <a href="https://www.facebook.com/ContarGroup" target="_blank"><i class="fa-brands fa-square-facebook fa-3x" style="color: #0866ff;"></i></a> -->
+        <a href="https://www.instagram.com/centropinto/" target="_blank"><i class="fa-brands fa-square-instagram fa-3x bg-insta active"></i></a>
+      </div>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Dirección:</p>
+      <p class="px-5 text-barlowc texto-fade description text-center text-dark bg-light w-75 rounded d-flex align-items-center justify-content-center">Calle Anibal Pinto #1439 - Centro de Coquimbo.</p>
+      <div class="row justify-content-center w-75 py-4 pb-5">
+        <div class="w-100 px-0"> <!-- Ajusta el tamaño para que no sea tan ancho en pantallas grandes -->
+            <div class="w-100">
+              <iframe class="w-100 he rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.7893936371943!2d-71.34272512276769!3d-29.956735927217906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691c8feb759f751%3A0x73a94fb5a2b47ab!2sAn%C3%ADbal%20Pinto%201439%2C%201780998%20Coquimbo!5e0!3m2!1sen!2scl!4v1742218577253!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+     </div>
+     <footer class="row bg-light p-5 gap-5 justify-content-evenly align-items-center">
+      <div class="col-12 col-md-3 d-flex justify-content-center flex-column gap-2 text-center">
+        <a href="#nos"; class="hp">Sobre Mi</a>
+        <a href="#serv"; class="hp">Servicios</a>
+        
+        <a href="#contact"; class="hp">Contacto</a>
+      </div>
+      
+      <div class="col-12 col-md-3 d-flex justify-content-center"><p>©2025 Belen Nuñez Fonoaudiologa | Especialista en lenguaje infantil. | Todos los derechos reservados.</p></div>
+    </footer>
+    <!-- Botón de WhatsApp -->
+<a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+<!-- Botón de subir -->
+<a href="#top" class="scroll-to-top-btn" id="scrollToTopBtn">
+  <i class="fas fa-arrow-up"></i> <!-- Icono de flecha hacia arriba -->
+</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
