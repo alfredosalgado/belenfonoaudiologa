@@ -116,6 +116,44 @@ document.querySelectorAll('.counter-box').forEach(counterBox => observer.observe
 
 
 
+const carousel = document.getElementById('testimonialCarousel');
+        const cardWidth = 300; // Ancho de la tarjeta (280px) + gap (20px)
+        const totalCards = document.querySelectorAll('.testimonial-card').length;
+        let currentIndex = 0;
+
+        function scrollCarousel(direction) {
+            const containerWidth = carousel.parentElement.offsetWidth;
+            const cardsPerView = Math.floor(containerWidth / cardWidth); // Tarjetas visibles completas
+            const maxIndex = Math.max(0, totalCards - cardsPerView); // Índice máximo ajustado
+
+            // Actualizar el índice según la dirección
+            currentIndex += direction;
+
+            // Limitar el índice para no exceder los bordes
+            if (currentIndex < 0) {
+                currentIndex = 0;
+            } else if (currentIndex > maxIndex) {
+                currentIndex = maxIndex;
+            }
+
+            // Calcular el desplazamiento
+            const offset = -currentIndex * cardWidth;
+            carousel.style.transform = `translateX(${offset}px)`;
+        }
+
+        // Ajuste responsivo al redimensionar la ventana
+        window.addEventListener('resize', () => {
+            const containerWidth = carousel.parentElement.offsetWidth;
+            const cardsPerView = Math.floor(containerWidth / cardWidth);
+            const maxIndex = Math.max(0, totalCards - cardsPerView);
+            if (currentIndex > maxIndex) {
+                currentIndex = maxIndex;
+            }
+            const offset = -currentIndex * cardWidth;
+            carousel.style.transform = `translateX(${offset}px)`;
+        });
+
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
